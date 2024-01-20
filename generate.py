@@ -15,23 +15,40 @@ from jinja2 import Template
 
 papers = [
     {
+        "title": "Masked Audio Generation using a Single Non-Autoregressive Transformer",
+        "authors": "Alon Ziv, Itai Gat, Gael Le Lan, Tal Remez, Felix Kreuk, Alexandre Defossez, Jade Copet, Gabriel Synnaeve, Yossi Adi",
+        "venue": "International Conference on Learning Representations (ICLR), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2401.04577",
+            "Code and Models,": "https://github.com/facebookresearch/audiocraft/blob/main/docs/MAGNET.md",
+            "Website,": "https://pages.cs.huji.ac.il/adiyoss-lab/MAGNeT/"
+        },
+        "year": 2024,
+        "bib": """
+        @misc{ziv2024magnet,
+            title={Masked Audio Generation using a Single Non-Autoregressive Transformer},
+            author={Alon Ziv and Itai Gat and Gael Le Lan and Tal Remez and Felix Kreuk and Alexandre Defossez and Jade Copet and Gabriel Synnaeve and Yossi Adi},
+            year={2024},
+            booktitle={ICLR}
+            }
+        """
+    },
+    {
         "title": "Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation",
         "authors": "Guy Yariv, Itai Gat, Sagie Benaim, Lior Wolf, Idan Schwartz, Yossi Adi",
-        "venue": "arXiv, 2023",
+        "venue": "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024",
         "links": {
             "PDF,": "https://arxiv.org/abs/2309.16429",
             "Code and Models,": "https://github.com/guyyariv/TempoTokens",
             "Website,": "https://pages.cs.huji.ac.il/adiyoss-lab/TempoTokens/"
         },
-        "year": 2023,
+        "year": 2024,
         "bib": """
         @misc{yariv2023diverse,
             title={Diverse and Aligned Audio-to-Video Generation via Text-to-Video Model Adaptation},
             author={Guy Yariv and Itai Gat and Sagie Benaim and Lior Wolf and Idan Schwartz and Yossi Adi},
-            year={2023},
-            eprint={2309.16429},
-            archivePrefix={arXiv},
-            primaryClass={cs.LG}
+            year={2024},
+            booktitle={AAAI}
             }
         """
     },
@@ -129,20 +146,18 @@ papers = [
     {
         "title": "Layer Collaboration in the Forward-Forward Algorithm",
         "authors": "Guy Lorberbom*, Itai Gat*, Yossi Adi, Alex Schwing, Tamir Hazan",
-        "venue": "arXiv, 2023",
+        "venue": "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024",
         "links": {
             "PDF,": "https://arxiv.org/abs/2305.12393",
         },
         "bib": """
-        @misc{lorberbom2023layer,
+        @inproceedings{lorberbom2023layer,
         title={Layer Collaboration in the Forward-Forward Algorithm}, 
         author={Guy Lorberbom and Itai Gat and Yossi Adi and Alex Schwing and Tamir Hazan},
         year={2023},
-        eprint={2305.12393},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG}}
+        booktitle={AAAI},}
         """,
-        "year": 2023,
+        "year": 2024,
     },
     {
         "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling (Oral)",

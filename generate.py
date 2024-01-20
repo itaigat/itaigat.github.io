@@ -53,6 +53,22 @@ papers = [
         """
     },
     {
+        "title": "Layer Collaboration in the Forward-Forward Algorithm",
+        "authors": "Guy Lorberbom*, Itai Gat*, Yossi Adi, Alex Schwing, Tamir Hazan",
+        "venue": "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2305.12393",
+        },
+        "bib": """
+        @inproceedings{lorberbom2023layer,
+        title={Layer Collaboration in the Forward-Forward Algorithm}, 
+        author={Guy Lorberbom and Itai Gat and Yossi Adi and Alex Schwing and Tamir Hazan},
+        year={2023},
+        booktitle={AAAI},}
+        """,
+        "year": 2024,
+    },
+    {
         "title": "Code Llama: Open Foundation Models for Code",
         "authors": "Baptiste Rozière, Jonas Gehring, Fabian Gloeckle, Sten Sootla, Itai Gat, Xiaoqing Ellen Tan, Yossi Adi, Jingyu Liu, Tal Remez, Jérémy Rapin, Artyom Kozhevnikov, Ivan Evtimov, Joanna Bitton, Manish Bhatt, Cristian Canton Ferrer, Aaron Grattafiori, Wenhan Xiong, Alexandre Défossez, Jade Copet, Faisal Azhar, Hugo Touvron, Louis Martin, Nicolas Usunier, Thomas Scialom, Gabriel Synnaeve",
         "venue": "arXiv, 2023",
@@ -142,22 +158,6 @@ papers = [
         year={2023}}
         """,
         "year": 2023,
-    },
-    {
-        "title": "Layer Collaboration in the Forward-Forward Algorithm",
-        "authors": "Guy Lorberbom*, Itai Gat*, Yossi Adi, Alex Schwing, Tamir Hazan",
-        "venue": "The Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI), 2024",
-        "links": {
-            "PDF,": "https://arxiv.org/abs/2305.12393",
-        },
-        "bib": """
-        @inproceedings{lorberbom2023layer,
-        title={Layer Collaboration in the Forward-Forward Algorithm}, 
-        author={Guy Lorberbom and Itai Gat and Yossi Adi and Alex Schwing and Tamir Hazan},
-        year={2023},
-        booktitle={AAAI},}
-        """,
-        "year": 2024,
     },
     {
         "title": "Augmentation Invariant Discrete Representation for Generative Spoken Language Modeling (Oral)",

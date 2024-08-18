@@ -1,19 +1,80 @@
+# noqa: E501
+
 from jinja2 import Template
 
-# news = [
-#     ("fa-newspaper-o",
-#      "Our model AudioGen, which generates audio from textual descriptions got some attention from the media: [<a href='https://www.newscientist.com/article/2341416-metas-text-to-audio-ai-can-create-common-sounds-and-generate-music/' target='blank'>New Scientist</a>]."),
-#     ("fa-book", "Our research paper <a href='https://arxiv.org/pdf/2111.07402.pdf' target='blank'><em>Textless Speech Emotion Conversion using Decomposed and Discrete Representations</em></a> was accepted to EMNLP 2022!"),
-#     ("fa-microphone",
-#      "Our model AudioGen, was covered by Aleksa Gordić: [<a href='https://www.youtube.com/watch?v=RyIn-DxGF-c'>YouTube</a>]."),
-#     ("fa-book", "4 papers accapted to INTERSPEECH 2022! More details in publications section."),
-#     ("fa-book", "Our paper <a href='https://ieeexplore.ieee.org/document/9747953'><em>Speech Time-Scale Modification With GANs</em></a> was accapted to IEEE Signal Processing Letters 2022!"),
-#     ("fa-trophy", "Started as a full-time Research Engineer at Meta AI Research"),
-#     ("fa-microphone",
-#      "Invited talk at <a href='https://homepages.inf.ed.ac.uk/htang2/sigml/seminar/'>ISCA SIGML Seminar<a>, [<a href='https://www.youtube.com/watch?v=gk6thCWl_eE'>Video</a>]."),
-# ]
 
 papers = [
+    {
+        "title": "Discrete Flow Matching",
+        "authors": "Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman",
+        # "venue": "arXiv, 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2407.15595",
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{gat2024discrete,
+        title={Discrete Flow Matching},
+        author={Itai Gat and Tal Remez and Neta Shaul and Felix Kreuk and Ricky T. Q. Chen and Gabriel Synnaeve and Yossi Adi and Yaron Lipman},
+        booktitle={arXiv},
+        year ={2024},
+        }
+        """
+    },
+    {
+        "title": "The Llama 3 Herd of Models",
+        "authors": "Llama Team, AI @ Meta",
+        # "venue": "arXiv, 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2407.21783",
+            "Code and Models,": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+            "Website,": "https://llama.meta.com/"
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{dubey2024llama3herdmodels,
+        title={The Llama 3 Herd of Models},
+        author={Llama Team, AI @ Meta},
+        booktitle={arXiv},
+        year ={2024},
+        }
+        """
+    },
+    {
+        "title": "D-Flow: Differentiating through Flows for Controlled Generation",
+        "authors": "Heli Ben-Hamu, Omri Puny, Itai Gat, Brian Karrer, Uriel Singer, Yaron Lipman",
+        "venue": "International Conference on Machine Learning (ICML), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2402.14017",
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{ben2024d,
+        title={D-Flow: Differentiating through Flows for Controlled Generation},
+        author={Ben-Hamu, Heli and Puny, Omri and Gat, Itai and Karrer, Brian and Singer, Uriel and Lipman, Yaron},
+        booktitle={ICML},
+        year ={2024},
+        }
+        """
+    },
+    {
+        "title": "SpiRit-LM: Interleaved Spoken and Written Language Model",
+        "authors": "Tu Anh Nguyen, Benjamin Muller, Bokai Yu, Marta R. Costa-jussa, Maha Elbayad, Sravya Popuri, Paul-Ambroise Duquenne, Robin Algayres, Ruslan Mavlyutov, Itai Gat, Gabriel Synnaeve, Juan Pino, Benoit Sagot, Emmanuel Dupoux",
+        "venue": "Transactions of the Association for Computational Linguistics (TACL), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2402.05755",
+            "Website,": "https://speechbot.github.io/spiritlm/"
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{nguyen2024spirit,
+            title={Spirit-lm: Interleaved spoken and written language model},
+            author={Nguyen, Tu Anh and Muller, Benjamin and Yu, Bokai and Costa-Jussa, Marta R and Elbayad, Maha and Popuri, Sravya and Duquenne, Paul-Ambroise and Algayres, Robin and Mavlyutov, Ruslan and Gat, Itai and others},
+            booktitle={TACL},
+            year ={2024},
+        }
+        """
+    },
     {
         "title": "Masked Audio Generation using a Single Non-Autoregressive Transformer",
         "authors": "Alon Ziv, Itai Gat, Gael Le Lan, Tal Remez, Felix Kreuk, Alexandre Defossez, Jade Copet, Gabriel Synnaeve, Yossi Adi",
@@ -25,12 +86,31 @@ papers = [
         },
         "year": 2024,
         "bib": """
-        @misc{ziv2024magnet,
+        @inproceedings{ziv2024magnet,
             title={Masked Audio Generation using a Single Non-Autoregressive Transformer},
             author={Alon Ziv and Itai Gat and Gael Le Lan and Tal Remez and Felix Kreuk and Alexandre Defossez and Jade Copet and Gabriel Synnaeve and Yossi Adi},
             year={2024},
             booktitle={ICLR}
             }
+        """
+    },
+    {
+        "title": "Joint Audio and Symbolic Conditioning for Temporally Controlled Text-to-Music Generation",
+        "authors": "Or Tal, Alon Ziv, Itai Gat, Felix Kreuk, Yossi Adi",
+        "venue": "International Society for Music Information Retrieval (ISMIR)",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2406.10970",
+            "Code and Models,": "https://github.com/facebookresearch/audiocraft/blob/main/docs/JASCO.md",
+            "Website,": "https://pages.cs.huji.ac.il/adiyoss-lab/JASCO/",
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{tal2024joint,
+        title={Joint Audio and Symbolic Conditioning for Temporally Controlled Text-to-Music Generation},
+        author={Tal, Or and Ziv, Alon and Gat, Itai and Kreuk, Felix and Adi, Yossi},
+        booktitle={ISMIR},
+        year ={2024},
+        }
         """
     },
     {

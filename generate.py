@@ -5,9 +5,9 @@ from jinja2 import Template
 
 papers = [
     {
-        "title": "Discrete Flow Matching",
+        "title": "Discrete Flow Matching (Spotlight)",
         "authors": "Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman",
-        # "venue": "arXiv, 2024",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
         "links": {
             "PDF,": "https://arxiv.org/pdf/2407.15595",
         },
@@ -16,7 +16,7 @@ papers = [
         @inproceedings{gat2024discrete,
         title={Discrete Flow Matching},
         author={Itai Gat and Tal Remez and Neta Shaul and Felix Kreuk and Ricky T. Q. Chen and Gabriel Synnaeve and Yossi Adi and Yaron Lipman},
-        booktitle={arXiv},
+        booktitle={NeurIPS},
         year ={2024},
         }
         """

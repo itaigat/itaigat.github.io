@@ -22,6 +22,23 @@ papers = [
         """
     },
     {
+        "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
+        "authors": "Buu Phan, Brandon Amos, Itai Gat, Marton Havasi, Matthew Muckley, Karen Ullrich",
+        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2410.09303",
+        },
+        "year": 2024,
+        "bib": """
+        @article{phan2024exact,
+        title={Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles},
+        author={Phan, Buu and Amos, Brandon and Gat, Itai and Havasi, Marton and Muckley, Matthew and Ullrich, Karen},
+        journal={arXiv preprint arXiv:2410.09303},
+        year={2024}
+        }
+        """
+    },
+    {
         "title": "The Llama 3 Herd of Models",
         "authors": "Llama Team, AI @ Meta",
         # "venue": "arXiv, 2024",

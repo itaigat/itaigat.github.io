@@ -22,6 +22,23 @@ papers = [
         """
     },
     {
+        "title": "Generator Matching: Generative modeling with arbitrary Markov processes",
+        "authors": "Peter Holderrieth, Marton Havasi, Jason Yim, Neta Shaul, Itai Gat, Tommi Jaakkola, Brian Karrer, Ricky TQ Chen, Yaron Lipman",
+        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2410.20587",
+        },
+        "year": 2024,
+        "bib": """
+        @article{holderrieth2024generator,
+        title={Generator Matching: Generative modeling with arbitrary Markov processes},,
+        author={Peter Holderrieth and Marton Havasi and Jason Yim and Neta Shaul and Itai Gat and Tommi Jaakkola and Brian Karrer and Ricky T. Q. Chen and Yaron Lipman},
+        journal={arXiv preprint arXiv:2410.20587},
+        year={2024}
+        }
+        """
+    },
+    {
         "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
         "authors": "Buu Phan, Brandon Amos, Itai Gat, Marton Havasi, Matthew Muckley, Karen Ullrich",
         # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",

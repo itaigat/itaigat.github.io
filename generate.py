@@ -22,6 +22,23 @@ papers = [
         """
     },
     {
+        "title": "Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective",
+        "authors": "Neta Shaul, Itai Gat, Marton Havasi, Daniel Severo, Anuroop Sriram, Peter Holderrieth, Brian Karrer, Yaron Lipman, Ricky T. Q. Chen",
+        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2412.03487",
+        },
+        "year": 2024,
+        "bib": """
+        @article{shaul2024flow,
+        title={Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective},
+        author={Neta Shaul and Itai Gat and Marton Havasi and Daniel Severo and Anuroop Sriram and Peter Holderrieth and Brian Karrer and Yaron Lipman and Ricky T. Q. Chen},
+        journal={arXiv preprint arXiv:2412.03487},
+        year={2024}
+        }
+        """
+    },
+    {
         "title": "Generator Matching: Generative modeling with arbitrary Markov processes",
         "authors": "Peter Holderrieth, Marton Havasi, Jason Yim, Neta Shaul, Itai Gat, Tommi Jaakkola, Brian Karrer, Ricky TQ Chen, Yaron Lipman",
         # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",

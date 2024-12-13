@@ -9,6 +9,7 @@ papers = [
         "authors": "Yaron Lipman, Marton Havasi, Peter Holderrieth, Neta Shaul, Matt Le, Brian Karrer, Ricky TQ Chen, David Lopez-Paz, Heli Ben-Hamu, Itai Gat",
         "links": {
             "PDF,": "https://arxiv.org/abs/2412.06264",
+            "Code,": "https://github.com/facebookresearch/flow_matching",
         },
         "year": 2024,
         "bib": """

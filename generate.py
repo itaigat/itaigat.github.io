@@ -22,7 +22,7 @@ papers = [
         """
     },
     {
-        "title": "Generator Matching: Generative modeling with arbitrary Markov processes",
+        "title": "Generator Matching: Generative modeling with arbitrary Markov processes (Oral)",
         "authors": "Peter Holderrieth, Marton Havasi, Jason Yim, Neta Shaul, Itai Gat, Tommi Jaakkola, Brian Karrer, Ricky TQ Chen, Yaron Lipman",
         # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
         "links": {
@@ -31,7 +31,7 @@ papers = [
         "year": 2025,
         "bib": """
         @inproceedings{holderrieth2024generator,
-        title={Generator Matching: Generative modeling with arbitrary Markov processes (Oral)},
+        title={Generator Matching: Generative modeling with arbitrary Markov processes},
         author={Peter Holderrieth and Marton Havasi and Jason Yim and Neta Shaul and Itai Gat and Tommi Jaakkola and Brian Karrer and Ricky T. Q. Chen and Yaron Lipman},
         booktitle={ICLR},
         year={2025}

@@ -7,7 +7,7 @@ papers = [
     {
         "title": "Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective (Oral)",
         "authors": "Neta Shaul, Itai Gat, Marton Havasi, Daniel Severo, Anuroop Sriram, Peter Holderrieth, Brian Karrer, Yaron Lipman, Ricky T. Q. Chen",
-        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "venue": "International Conference on Learning Representations (ICLR), 2025",
         "links": {
             "PDF,": "https://arxiv.org/abs/2412.03487",
         },
@@ -24,7 +24,7 @@ papers = [
     {
         "title": "Generator Matching: Generative modeling with arbitrary Markov processes (Oral)",
         "authors": "Peter Holderrieth, Marton Havasi, Jason Yim, Neta Shaul, Itai Gat, Tommi Jaakkola, Brian Karrer, Ricky TQ Chen, Yaron Lipman",
-        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "venue": "International Conference on Learning Representations (ICLR), 2025",
         "links": {
             "PDF,": "https://arxiv.org/abs/2410.20587",
         },
@@ -41,7 +41,7 @@ papers = [
     {
         "title": "Exact Byte-Level Probabilities from Tokenized Language Models for FIM-Tasks and Model Ensembles",
         "authors": "Buu Phan, Brandon Amos, Itai Gat, Marton Havasi, Matthew Muckley, Karen Ullrich",
-        # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "venue": "International Conference on Learning Representations (ICLR), 2025",
         "links": {
             "PDF,": "https://arxiv.org/abs/2410.09303",
         },

@@ -5,43 +5,6 @@ from jinja2 import Template
 
 papers = [
     {
-        "title": "Flow Matching Guide and Code",
-        "authors": "Yaron Lipman, Marton Havasi, Peter Holderrieth, Neta Shaul, Matt Le, Brian Karrer, Ricky TQ Chen, David Lopez-Paz, Heli Ben-Hamu, Itai Gat",
-        "links": {
-            "PDF,": "https://arxiv.org/abs/2412.06264",
-            "Code,": "https://github.com/facebookresearch/flow_matching",
-        },
-        "year": 2024,
-        "bib": """
-        @misc{lipman2024flowmatchingguidecode,
-            title={Flow Matching Guide and Code}, 
-            author={Yaron Lipman and Marton Havasi and Peter Holderrieth and Neta Shaul and Matt Le and Brian Karrer and Ricky T. Q. Chen and David Lopez-Paz and Heli Ben-Hamu and Itai Gat},
-            year={2024},
-            eprint={2412.06264},
-            archivePrefix={arXiv},
-            primaryClass={cs.LG},
-            url={https://arxiv.org/abs/2412.06264}, 
-        }
-        """
-    },
-    {
-        "title": "Discrete Flow Matching (Spotlight)",
-        "authors": "Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
-        "links": {
-            "PDF,": "https://arxiv.org/pdf/2407.15595",
-        },
-        "year": 2024,
-        "bib": """
-        @inproceedings{gat2024discrete,
-        title={Discrete Flow Matching},
-        author={Itai Gat and Tal Remez and Neta Shaul and Felix Kreuk and Ricky T. Q. Chen and Gabriel Synnaeve and Yossi Adi and Yaron Lipman},
-        booktitle={NeurIPS},
-        year ={2024},
-        }
-        """
-    },
-    {
         "title": "Flow Matching with General Discrete Paths: A Kinetic-Optimal Perspective (Oral)",
         "authors": "Neta Shaul, Itai Gat, Marton Havasi, Daniel Severo, Anuroop Sriram, Peter Holderrieth, Brian Karrer, Yaron Lipman, Ricky T. Q. Chen",
         # "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
@@ -89,6 +52,43 @@ papers = [
         author={Phan, Buu and Amos, Brandon and Gat, Itai and Havasi, Marton and Muckley, Matthew and Ullrich, Karen},
         booktitle={ICLR},
         year={2025}
+        }
+        """
+    },
+    {
+        "title": "Flow Matching Guide and Code",
+        "authors": "Yaron Lipman, Marton Havasi, Peter Holderrieth, Neta Shaul, Matt Le, Brian Karrer, Ricky TQ Chen, David Lopez-Paz, Heli Ben-Hamu, Itai Gat",
+        "links": {
+            "PDF,": "https://arxiv.org/abs/2412.06264",
+            "Code,": "https://github.com/facebookresearch/flow_matching",
+        },
+        "year": 2024,
+        "bib": """
+        @misc{lipman2024flowmatchingguidecode,
+            title={Flow Matching Guide and Code}, 
+            author={Yaron Lipman and Marton Havasi and Peter Holderrieth and Neta Shaul and Matt Le and Brian Karrer and Ricky T. Q. Chen and David Lopez-Paz and Heli Ben-Hamu and Itai Gat},
+            year={2024},
+            eprint={2412.06264},
+            archivePrefix={arXiv},
+            primaryClass={cs.LG},
+            url={https://arxiv.org/abs/2412.06264}, 
+        }
+        """
+    },
+    {
+        "title": "Discrete Flow Matching (Spotlight)",
+        "authors": "Itai Gat, Tal Remez, Neta Shaul, Felix Kreuk, Ricky T. Q. Chen, Gabriel Synnaeve, Yossi Adi, Yaron Lipman",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2024",
+        "links": {
+            "PDF,": "https://arxiv.org/pdf/2407.15595",
+        },
+        "year": 2024,
+        "bib": """
+        @inproceedings{gat2024discrete,
+        title={Discrete Flow Matching},
+        author={Itai Gat and Tal Remez and Neta Shaul and Felix Kreuk and Ricky T. Q. Chen and Gabriel Synnaeve and Yossi Adi and Yaron Lipman},
+        booktitle={NeurIPS},
+        year ={2024},
         }
         """
     },
